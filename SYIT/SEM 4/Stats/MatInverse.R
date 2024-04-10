@@ -1,0 +1,7 @@
+print('Name: Mohd Sahbaz 204')
+A<-matrix(c(2,2,-2,1,2,2),3,2)
+print(A)
+B<-matrix(c(1,4,-2,1,2,1),3,2)
+print(B)
+E<-matrix(c(2,1,6,1,3,4,6,4,-2),3,3)
+print(E)
