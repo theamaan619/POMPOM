@@ -1,0 +1,16 @@
+h1
+{
+	background-color:red;
+	font-size:40px;
+	color:white;
+}
+p
+{
+	background-color:yellow;
+	color:black;
+}
+body
+{
+	background-color:black;
+	background-image:url("Amaan.jpg");
+}

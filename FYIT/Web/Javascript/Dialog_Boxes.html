@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>
+Login
+</title>
+</head>
+<script>
+function alt()
+{
+alert("This is Warning!!!")
+document.write ("Login Successfully!");
+}
+function conf() {
+               var x = confirm("Do you want to continue ?");
+               if( x == true ) {
+                  document.write ("User wants to continue!");
+                  return true;
+               } else {
+                  document.write ("User does not want to continue!");
+                  return false;
+               }
+            }
+</script>
+<style>
+div{
+border:1px solid black;
+width="15%";
+height="15%";
+margin-left:8px;
+margin-bottom:6px;
+margin-top:6px;
+padding-bottom:8px;
+background-image:url(https://static.vecteezy.com/system/resources/previews/001/984/861/original/abstract-blue-geometric-circles-overlapping-background-with-light-blue-free-vector.jpg);
+}
+h1{
+background-color:black;
+color:white;
+}
+</style>
+<body>
+<!--h1>Hello</h1-->
+<div>
+<center><h1><b>&nbsp;&nbsp;&nbsp;Welcome To SPDT</b></h1>
+<br><br>
+<b>User Name: </b><input type="Text" name="t1" placeholder="Enter Your User Name"><br><br>
+<b>Password: </b><input type="password"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="button" onclick="conf()" value="Login">&nbsp;&nbsp;&nbsp;
+<input type="button" value="Cancel">
+</center>
+</div>
+</body>
+</html>

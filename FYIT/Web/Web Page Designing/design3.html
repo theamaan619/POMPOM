@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Designing</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn{
+        margin: 1%;
+        padding: 1%;
+        color: red;
+        border-radius: 2px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        cursor: pointer;
+        top: 0%;
+    }
+    .background{
+        background-color: black;
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+    .list{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        
+    }
+   .list li {
+		list-style: none;
+		padding: 30px;
+	}
+    .list li a {
+		text-decoration: none;
+		color: white;
+	}
+    .list li a:hover {
+		color: yellow;
+	}
+    .nav {
+		width: 30%;
+		text-align: right;
+	}
+    #search {
+		padding: 5px;
+		font-size: 17px;
+		border: 2px solid grey;
+		border-radius: 9px;
+	}
+   /* .box-main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+		width: 80%;
+		margin: auto;
+		height: 80%;
+	}
+    */
+    .firstsection {
+		background-color: green;
+		height: 200px;
+        margin: 2px;
+        padding: 2px;
+	}
+   
+    .firstsec{
+		width: 30%;
+       
+	}
+    .htm{
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;
+        margin: 2%;
+        padding: 2%;
+        border: 2px solid black;
+        
+    }
+    .secondsection {
+		background-color: blue;
+		height: 200px;
+        margin: 2px;
+        padding: 2px;
+	}
+    .secondsec{
+		width: 30%;
+        
+	}
+    .tsection{
+        
+        background-color: aqua;
+        background-size: cover;
+        
+        display: flex;
+        justify-content:left;
+        padding: 2px;
+        margin: 2px;
+        height: 200px;
+    }
+    .textfooter{
+		text-align: center;
+		padding: 30px 0;
+		font-family: 'Ubuntu', sans-serif;
+		display: flex;
+		justify-content: center;
+		color: white;
+        background-color: red;
+	}
+</style>
+<body>
+    <nav class="navbar background">
+        <div>
+            <img src="../Doge.png" alt="">
+            </div>
+            <ul class="list">
+                <li><a href="#html"> HTML</a></li>
+                <li><a href="#css"> CSS</a></li>
+                <li><a href="#javascript"> JAVASCRIPT</a></li>
+            </ul>
+            <div class="nav">
+                <input type="search" name="search" placeholder="Search here" id="search">
+                <button id="btn">Search</button>
+            </div>
+    </nav>
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstsec">
+            <h1 class="htm">HTML</h1>
+            <p>
+                <b>HTML</b> stands for <b>HYPER TEXT MARKUP LANGUAGE</b>.
+                HTML is Developed by Tim Berner-lee in USA.
+                HTML is use to create Web Pages.
+            </p>
+        </div>
+        </div>
+    </section>
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="secondsec">
+            <h1 class="htm">CSS</h1>
+            <p>
+                <b>CSS</b> stands for <b>CASCADING STYLE SHEET</b>.
+                CSS is Developed by Tim Berner-lee in USA.
+                CSS is use to Designing a Web Pages.
+            </p>
+        </div>
+        </div>
+    </section>
+    <section class="tsection">
+        <div>
+            <h1 class="htm">JAVASCRIPT</h1>
+            <p id="javascript">
+                <b>JAVASCRIPT</b> is a  <b>Scripting Language</b>.
+                JAVASCRIPT is use to create Dynamic Web Pages.
+            </p>
+        </div>
+    </section>
+    <footer >
+        <p class="textfooter">
+            Copyright - &copy; All Right Reserved
+        </p> 
+    </footer>
+</body>
+</html>

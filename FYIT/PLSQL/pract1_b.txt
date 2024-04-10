@@ -1,0 +1,13 @@
+set serveroutput on;
+declare
+var_sal number(6);
+var_emp_no number(4);
+begin
+var_emp_no: = '7369;
+SELECT sal
+INTO var_sal
+FROM emp
+WHERE empno=var_emp_no;
+dbms_output.put_line(var_sal);
+end;
+/

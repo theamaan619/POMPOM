@@ -1,0 +1,13 @@
+set serveroutput on;
+declare
+v_x number(5);
+v_y number(5);
+var_sum number(10);
+var_avg number(10);
+begin
+var_x: = & var_x;
+var_y: = &var_y;
+dbms_output.put_line('Sum is'||var_x+var_y);
+dbms_output.put_line('Sum is'||var_x/var_y);
+end;
+/

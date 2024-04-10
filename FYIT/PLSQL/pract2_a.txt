@@ -1,0 +1,12 @@
+set serveroutput on;
+declare
+str1 VARCHAR(12);
+str2 VARCHAR(12);
+BEGIN
+str1:='Techmax';
+str2:='Techmax';
+IF str1 LIKE str2 THEN
+dbms_output.put_line(str1||'is same like'||str2);
+END IF;
+end;
+/

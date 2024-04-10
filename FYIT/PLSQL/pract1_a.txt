@@ -1,0 +1,12 @@
+set serveroutput on;
+declare
+v_x number(5);
+v_y number(5);
+v_sum number(5);
+BEGIN
+v_y: = 10;
+v_y:=20;
+v_sum:= V_x+v_y;
+dbms_output.put_line('Sum is'||v_sum);
+end;
+/
